@@ -1,0 +1,16 @@
+{
+  "name": "dmc-erp-system",
+  "regions": ["ap-northeast-2"],
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": {
+      "value": "https://fpfinpuncamlpbbimwtu.supabase.co"
+    },
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": {
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZwZmlucHVuY2FtbHBiYmltd3R1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM2MDEwMzQsImV4cCI6MjA1OTE3NzAzNH0.PkUdieMcJbIvReXzmCw-glNQdn2Ni4XdIOHSbYx8hJE"
+    }
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install"
+} 
